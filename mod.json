@@ -1,0 +1,9 @@
+{
+  "name": "moar-silicon",
+  "displayName": "Moar Silicon",
+  "author": "wdfeer",
+  "description": "A mod about Silicon!",
+  "dependencies": [],
+  "version": "1.0",
+  "minGameVersion": "145.1"
+}
