@@ -1,0 +1,40 @@
+{
+  "type": "ItemTurret",
+  "researchCostMultiplier": 2,
+  "size": 3,
+  "health": 1200,
+  "reload": 2,
+  "range": 300,
+  "maxAmmo": 1000,
+  "inaccuracy": 5,
+  "targetAir": true,
+  "targetGround": true,
+  "shootCone": 0.08,
+  "spread": 1,
+  "recoilAmount": 5,
+  "restitution": 0.06,
+  "rotateSpeed": 4,
+  "shootSound": "pew",
+  "xRand": 1,
+  "ammoPerShot": 8,
+  "ammoTypes": {
+    "silicon": {
+      "type": "BasicBulletType",
+      "speed": 9,
+      "damage": 160,
+      "splashDamage": 80,
+      "splashDamageRadius": 16,
+      "frontColor": "000000FF",
+      "backColor": "A2A2A2FF",
+      "height": 20,
+      "width": 6,
+      "hitEffect": "blastExplosion",
+      "shootEffect": "producesmoke",
+      "pierce": false,
+      "smokeEffect": "hitBulletBig"
+    }
+  },
+  "requirements": ["silicon/10000"],
+  "category": "turret",
+  "research": "hail"
+}
