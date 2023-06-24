@@ -1,0 +1,52 @@
+{
+  "type": "GenericCrafter",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "FFEEEEFF",
+        "alpha": 0.4,
+        "blending": "additive",
+        "particleSize": 3,
+        "reverse": true,
+        "particleRad": 23,
+        "particles": 22,
+        "fadeMargin": 1,
+        "rotateScl": 7,
+        "particleLife": 45
+      }
+    ]
+  },
+  "size": 5,
+  "hasPower": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "craftTime": 120,
+  "craftEffect": {
+    "type": "ParticleEffect",
+    "particles": 6,
+    "length": 15,
+    "lifetime": 15,
+    "interp": "circleOut",
+    "sizeInterp": "pow5In",
+    "lightColor": "66B1FFFF",
+    "colorFrom": "787878",
+    "colorTo": "FFC1C1FF",
+    "sizeFrom": 8,
+    "sizeTo": 3
+  },
+  "updateEffect": "none",
+  "consumes": {
+    "power": 25,
+    "items": ["blast-compound/4", "coal/8"],
+    "liquids": ["cryofluid/0.4"]
+  },
+  "requirements": ["surge-alloy/600", "plastanium/200", "silicon/100"],
+  "category": "crafting",
+  "research": "alloy-smelter",
+  "outputItem": "silicon/24"
+}
