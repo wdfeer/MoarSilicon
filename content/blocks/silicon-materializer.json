@@ -35,5 +35,7 @@
   "requirements": ["phase-fabric/800", "titanium/300", "silicon/1600"],
   "category": "crafting",
   "research": "alloy-smelter",
-  "outputItem": "silicon/12"
+  "outputItem": "silicon/12",
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.7
 }
