@@ -45,7 +45,7 @@
     "items": ["blast-compound/4", "coal/8"],
     "liquids": ["cryofluid/0.4"]
   },
-  "requirements": ["surge-alloy/600", "plastanium/200", "silicon/100"],
+  "requirements": ["surge-alloy/200", "plastanium/200", "silicon/100"],
   "category": "crafting",
   "research": "alloy-smelter",
   "outputItem": "silicon/24"
