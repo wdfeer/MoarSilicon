@@ -11,13 +11,13 @@
         "color": "EFE4CAFF",
         "alpha": 0.4,
         "blending": "additive",
-        "particleSize": 6,
+        "particleSize": 5,
         "reverse": true,
         "particleRad": 23,
         "particles": 22,
         "fadeMargin": 1,
         "rotateScl": 7,
-        "particleLife": 60
+        "particleLife": 45
       }
     ]
   },
@@ -25,14 +25,15 @@
   "hasPower": true,
   "hasItems": true,
   "itemCapacity": 20,
-  "craftTime": 120,
+  "craftTime": 360,
   "craftEffect": "smeltsmoke",
   "updateEffect": "none",
   "consumes": {
-    "power": 100
+    "power": 75,
+    "items": ["phase-fabric/1"]
   },
-  "requirements": ["phase-fabric/1200", "titanium/300", "silicon/2400"],
+  "requirements": ["phase-fabric/800", "titanium/300", "silicon/1600"],
   "category": "crafting",
   "research": "alloy-smelter",
-  "outputItem": "silicon/6"
+  "outputItem": "silicon/12"
 }
